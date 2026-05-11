@@ -11,8 +11,10 @@
   },
   "scripts": {
     "dev": "vite",
-    "server": "json-server db.json -p 6001",
-    "test": "vitest"
+    "build": "vite build",
+    "test": "vitest",
+    "preview": "vite preview",
+    "server": "json-server --watch db.json --port 6001"
   },
   "eslintConfig": {
     "extends": [
